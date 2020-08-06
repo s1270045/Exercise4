@@ -22,6 +22,11 @@ public class HeadsorTails{
         System.out.print("Heads: "+heads);
         System.out.println(", Tails: "+tails);
 
-        
+        if(heads > tails){
+            System.out.println("You won!");
+        }
+        else {
+            System.out.println("You lost!");
+        }
     }
 }
